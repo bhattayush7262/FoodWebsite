@@ -1,0 +1,161 @@
+.logo{
+    display: flex;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    left: 12px;
+}
+.navigation{
+    display: flex;
+    margin: 0px;
+    padding: 1px 2px;
+}
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    margin: 1px 16px;
+    position: relative;
+    border-radius: 30px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(5, 53, 53);
+   
+    padding: 2px 37px;}
+     .navbar ul{
+        display: flex;
+        margin: 1px 2px;
+    }
+    .navbar{
+        display: flex;
+        text-align: center;
+        position: relative;
+        justify-items: center;
+        left: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   .navigation::before{
+       content: "";
+       background-image: url(desert.jpg) ;
+       background-position: center;
+       position: absolute;
+       top: 0%;
+       left: 0%;
+       height: 285px;
+       width: 100%;
+       z-index: -1;
+       opacity: 0.8;
+   }
+   
+  
+   .navbar ul li a:hover {
+       color: white;
+       border: 2px solid;
+       background-color: rgb(25, 136, 136); 
+      transition-property: background-color;
+      transition-delay: 0s;
+      transition-duration: 3s;
+      transition-timing-function: ease;
+   }
+
+ 
+   section{
+       text-align: center;   
+       margin: 24px 5px; 
+   }
+   .center p{
+       text-align: center;
+       font-size: 2em;    
+   }
+   .center span{
+       color: greenyellow;
+   }
+  
+   .logo1{
+       display: flex;
+       position: absolute;
+       top: 50px;
+       font-size: 20px;
+       margin: 0px 5px;
+       color: rgb(0, 0, 0);
+   }
+  
+   .btn1{
+       border: 2px solid;
+       margin: 2px 3px;
+       padding: 7px 13px;
+       border-radius: 10px;
+       cursor: pointer;
+       background-color: rgb(204, 204, 230);
+       font-size: 20px;
+       width: auto;
+   }
+   .btn1:hover{
+       border-radius: 20px;
+       animation-name: btn2;
+       /* animation-duration: 3s;
+       animation-iteration-count: infinite;
+       animation-fill-mode: forwards;
+       animation-timing-function: ease-in-out; */
+       font-size: 20px;
+       width:200px;
+       background-color: rgb(211, 158, 158);
+   }
+   /* @keyframes btn2{
+       from{
+        width: 100px;
+       }to{
+        width: 200px;
+       } */
+   
+   @keyframes nav2{
+       from{ width: 200px;
+
+       }to{
+        width: 400px;
+       }
+   }
+   .serve{
+    display: flex;
+    margin: 0px 0px; 
+    /* background-image: url(pancake.jpg); */
+    z-index: -1;
+    opacity: 0.9;
+    left: 0%;
+    width: 100%;
+    margin: 94px 0px;
+    padding: 0%;
+    left: 2px;
+   }
+   .serve h2{
+       position: relative;
+       color: rgb(214, 44, 44);
+       left: 586px;
+       justify-content: center;
+       font-size: 2em;
+   }
+   .serve p{
+       position: relative;
+       justify-content: center;
+       align-items: center;
+   }
+   .container{
+       display:flex;
+   }
+   .box{
+    position: relative;
+    margin: 50px 11px;
+    padding: 9px 2px;
+    height: 263px;
+    /* flex-direction: row; */
+    width: 312px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 28px;
+    background-color: rgb(241, 243, 242);
+}

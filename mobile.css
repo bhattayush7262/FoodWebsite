@@ -1,0 +1,45 @@
+/* logo */
+/* navigation::before */
+.navigation::before{
+    content: "";
+    background-image: url(bg.jpg);
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 416px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* navigation */
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+}
+.navbar ul li a{
+    margin: 0px 0px;
+    padding: 0%;
+}
+/* serve */
+
+.serve h2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+/* box */
+.box{
+position: relative;
+    margin: 13px 4px;
+    top: 158px;
+    padding: 17px 24px;
+    height: 263px;
+    flex-direction: column;
+    width: 291px;
+    text-align: center;
+    border-radius: 28px;
+
+}
